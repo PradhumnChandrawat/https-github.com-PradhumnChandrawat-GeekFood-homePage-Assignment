@@ -1,0 +1,67 @@
+.hero {
+  background-image: url("https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+  height: 100vh;
+}
+
+.hero-text {
+  max-width: 500px;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+.hero-text h1 {
+  font-size: 48px;
+}
+.hero-text h1:nth-child(2) {
+  font-size: 48px;
+  color: #e63946;
+}
+
+.hero-text p {
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.btn {
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.search-btn-div {
+  width: 40%;
+  height: 100%;
+}
+.search-btn {
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+  background-color: #d9868c;
+}
+
+.know-more-btn-div {
+  width: 40%;
+  height: 100%;
+}
+.know-more-btn {
+  width: 90%;
+  height: auto;
+  background-color: black;
+  color: #e63946;
+
+  border-radius: 10px;
+  cursor: pointer;
+}
